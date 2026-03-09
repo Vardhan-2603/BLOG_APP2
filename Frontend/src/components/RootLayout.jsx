@@ -1,8 +1,15 @@
 import React from 'react'
+import App from '../App'
+import Header from './Header'
+import Footer from './Footer'
 
 function RootLayout() {
   return (
-    <div>RootLayout</div>
+    <div>
+      <Header/>
+      <Outlet/>
+      <Footer/>
+    </div>
   )
 }
 
